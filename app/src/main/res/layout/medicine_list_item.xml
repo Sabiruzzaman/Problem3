@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/medicineViewId"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/medicineNameId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Sulfasalazine"
+        android:textSize="20sp" />
+    <View
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
